@@ -1,0 +1,34 @@
+group: JualMobil
+Cabang = {
+NoCabang, alamat, noTelp, kota
+'CX607', 'Jl. Sawi No.10', '0878888899', 'Semarang'
+'CX608', 'Jl. Merpati No.70', '08127656789', 'Jakarta'
+'CX610', 'Jl. Garuda No. 8', '08775567543', 'Surabaya'
+'CX645', 'Jl. H. Saidi No. 25', '08135668287', 'Jakarta'
+'CX650', 'Jl. Buntu No.128', '08187658290', 'Bandung'
+}
+Sales = {
+NoSales, Name, Jabatan, JenisKelamin, Umur, Gaji, NoCabang
+'AS32', 'Adi', 'Asisten', 'M', 30, 6000000, 'CX608'
+'AS12', 'Dinda', 'Asisten', 'F', 28, 5500000, 'CX607'
+'QR05', 'David', 'Manager', 'M', 38, 12000000, 'CX645'
+'SV17', 'Lina', 'Supervisor', 'F', 35, 9000000, 'CX645'
+'AS13', 'Lisa', 'Asisten', 'F', 29, 5600000, 'CX610'
+'QR02', 'Dandi', 'Manager', 'M', 41, 10000000, 'CX650'
+}
+StokMobil = {
+StokNo, Merk, Tipe, Jenis, Tahun, Harga, NoSales, NoCabang
+'PA14', 'Toyota', 'Avanza', 'MPV', 2012, 100, 'AS32', 'CX608'
+'PL94', 'Mitsubishi', 'Pajero Sport', 'SUV', 2016, 350, 'AS13', 'CX610'
+'PG4', 'Ford', 'Focus', 'Hatchback', 2011, 125, 'AS12', 'CX607'
+'PG36', 'Toyota', 'Yaris', 'City Car', 2018, 200, 'QR02', 'CX650'
+'PG21', 'Honda', 'CR-V', 'SUV', 2010, 135, 'QR05', 'CX645'
+'PG16', 'Honda', 'Civic', 'Sedan', 2017, 380, 'SV17', 'CX645'
+}
+Pelanggan = {
+NoPelanggan, Nama, NoTelpPelanggan, Merk, Jenis, hargaMaks
+'PL76', 'Roni', '08154367892', 'Mitsubishi', 'SUV', 360
+'PL67', 'Joko', '08786572436', 'Honda', 'Sedan', 400
+'PL56', 'Wulan', '08568265782', 'Toyota', 'City Car', 210
+'PL34', 'Rio', '087625447889', 'Toyota', 'MPV', 120
+}
